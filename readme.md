@@ -48,7 +48,7 @@ El pipeline se ejecutará automáticamente con:
 - Todo configurado y listo para usar
 
 ## Estructura de archivos
-Los archivos de entrada deben estar en una carpeta `datasets` con:
+Los archivos de entrada estan en la carpeta `datasets` con:
 - `tarifa_por_destino.csv`: Tarifas por tipo de destino
 - `minimos.csv`: Valores mínimos por año
 - `maximos.csv`: Valores máximos por año
