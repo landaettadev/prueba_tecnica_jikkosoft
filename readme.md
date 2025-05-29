@@ -62,9 +62,8 @@ Los archivos de entrada estan en la carpeta `datasets` con:
 ## ¿Cómo lo uso?
 
 
-
 ### Si usas Docker:
 1. Clona el repo
 2. Coloca tus archivos en `datasets/`
 3. Ejecuta `docker-compose up --build`
-4. ¡Disfruta! 🎉
+
