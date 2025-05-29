@@ -24,19 +24,21 @@ Necesitas:
 - Python 3.10+
 - PostgreSQL
 - Un archivo `.env` con tus credenciales (te dejo un ejemplo abajo)
-### Si usas instalación local:
-1. Clona el repo
-2. Instala las dependencias: `pip install -r requirements.txt`
-3. Configura tu `.env`
-4. Ejecuta: `python pipelinecarga.py`
-
-```env
+ ```env
 DB_USER=tu_usuario
 DB_PASSWORD=tu_password
 DB_HOST=localhost
 DB_PORT=5432
 DB_NAME=consumos_db
 ```
+
+### Si usas instalación local:
+1. Clona el repo
+2. Instala las dependencias: `pip install -r requirements.txt`
+3. Configura tu `.env`
+4. Ejecuta: `python pipelinecarga.py`
+
+
 ### Opción 2: Usando Docker 🐳
 Docker:
 1. Asegúrate de tener Docker y Docker Compose instalados
