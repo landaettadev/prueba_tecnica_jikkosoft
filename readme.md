@@ -11,10 +11,10 @@ Basicamente, toma una cantidad de archivos de consumo y los procesa de manera ef
 - Todo se guarda en PostgreSQL para consultas rápidas
 
 ## ¿Cómo lo hice funcionar?
-Después de varios intentos y mucho cafe ☕, logré implementar:
+Se implemento:
 - Un sistema de logging que te dice que esta pasando
-- Manejo de errores robusto (porque los datos nunca vienen perfectos)
-- Procesamiento en lotes para no matar la memoria
+- Manejo de errores robusto 
+- Procesamiento en lotes para no acabar la memoria
 - Una tabla de estadisticas que se actualiza en tiempo real
 
 ## Configuración
