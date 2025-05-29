@@ -23,7 +23,7 @@ Se implemento:
 Necesitas:
 - Python 3.10+
 - PostgreSQL
-- Un archivo `.env` con tus credenciales (te deje un ejemplo abajo)
+- Un archivo `.env` con tus credenciales (te dejo un ejemplo abajo)
 
 ```env
 DB_USER=tu_usuario
