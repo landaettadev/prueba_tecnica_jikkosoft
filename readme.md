@@ -24,6 +24,11 @@ Necesitas:
 - Python 3.10+
 - PostgreSQL
 - Un archivo `.env` con tus credenciales (te dejo un ejemplo abajo)
+### Si usas instalación local:
+1. Clona el repo
+2. Instala las dependencias: `pip install -r requirements.txt`
+3. Configura tu `.env`
+4. Ejecuta: `python pipelinecarga.py`
 
 ```env
 DB_USER=tu_usuario
@@ -36,15 +41,13 @@ DB_NAME=consumos_db
 Docker:
 1. Asegúrate de tener Docker y Docker Compose instalados
 2. Clona el repo
-3. Coloca tus archivos de datos en la carpeta `datasets/`
-4. Ejecuta:
+3. Ejecuta:
 ```bash
 docker-compose up --build
 ```
 El pipeline se ejecutará automáticamente con:
 - PostgreSQL corriendo en un contenedor
 - La aplicación Python en otro contenedor
-- Los datos persistidos en volúmenes Docker
 - Todo configurado y listo para usar
 
 ## Estructura de archivos
@@ -56,11 +59,7 @@ Los archivos de entrada estan en la carpeta `datasets` con:
 
 ## ¿Cómo lo uso?
 
-### Si usas instalación local:
-1. Clona el repo
-2. Instala las dependencias: `pip install -r requirements.txt`
-3. Configura tu `.env`
-4. Ejecuta: `python pipelinecarga.py`
+
 
 ### Si usas Docker:
 1. Clona el repo
